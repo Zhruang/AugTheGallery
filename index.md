@@ -1,3 +1,3 @@
 hello
 
-[week 1](/Week1.md)
+[week 1](/Week#1.md)
