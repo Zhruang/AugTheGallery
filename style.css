@@ -1,0 +1,92 @@
+:root {
+
+    /* Metrics & Settings */
+
+    /* EM */
+    --EM: 18px;
+
+    /* Color Palette */
+    --color1: #333;
+    --color2: #111;
+    --color3: blue;
+    --backgroundColor: #fafafa;
+
+    /* Font */
+    --primaryFont: neue-haas-unica;
+
+    /* Weight */
+    --weightR: 400;
+    --weightB: 600;
+
+    /* Font Size */
+    --h1Size: calc(var(--EM) * 2);
+    --pSize: calc(var(--EM) * 1);
+
+}
+
+body {
+    /* Emergency Fallback*/
+    font-family: var(--primaryFont), san-serif;
+
+    background-color: var(--backgroundColor);
+
+    /* Spatial Setting */
+    max-width: calc(var(--EM) * 40);
+    padding: calc(var(--EM) * 1);
+    margin: auto;
+}
+
+h1 {
+    /* Font */
+    font-family: var(--primaryFont), san-serif;
+    font-size: var(--h1Size);
+    font-weight: var(--weightR);
+    font-style: normal;
+    letter-spacing: calc(var(--EM) * 0.05);
+
+    /* Paragraph */
+    line-height: 1.1;
+
+    /* Color */
+    color: var(--color2);
+}
+
+p {
+    /* Spatial Setting */
+
+    /* Font */
+    font-family: var(--primaryFont), san-serif;
+    font-size: var(--pSize);
+    font-weight: var(--weightR);
+    font-style: normal;
+
+    /* Paragraph */
+    line-height: 1.5;
+
+    /* Color */
+    color: var(--color1);
+}
+
+ul {
+    /* Spatial Setting */
+
+    /* Font */
+    font-family: var(--primaryFont), san-serif;
+    font-size: var(--pSize);
+    font-weight: var(--weightR);
+    font-style: italic;
+
+    /* Paragraph */
+    line-height: 1.5;
+
+    /* Color */
+    color: var(--color1);
+    
+    /*Style*/
+    list-style-type: circle;
+}
+
+strong {
+    /* Font */
+    font-weight: var(--weightB);
+}
