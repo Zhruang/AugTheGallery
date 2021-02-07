@@ -15,12 +15,18 @@
     --primaryFont: neue-haas-unica;
 
     /* Weight */
+    --weightU: 100;
     --weightR: 400;
     --weightB: 600;
+    --weightH: 900;
 
     /* Font Size */
-    --h1Size: calc(var(--EM) * 2);
+    --h1Size: calc(var(--EM) * 2.75);
     --pSize: calc(var(--EM) * 1);
+
+    /* Text Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
 }
 
@@ -30,10 +36,13 @@ body {
 
     background-color: var(--backgroundColor);
 
-    /* Spatial Setting */
+    /* Spatial Settings */
     max-width: calc(var(--EM) * 40);
     padding: calc(var(--EM) * 1);
     margin: auto;
+
+    /* Experimental */
+    hyphens: auto;
 }
 
 h1 {
@@ -43,7 +52,7 @@ h1 {
     font-weight: var(--weightR);
     font-style: normal;
     /*text-transform: uppercase;*/
-    /*letter-spacing: calc(var(--EM) * 0.05);*?
+    letter-spacing: calc(var(--EM) * -0.6);
 
     /* Paragraph */
     line-height: 1.1;
@@ -53,7 +62,7 @@ h1 {
 }
 
 p {
-    /* Spatial Setting */
+    /* Spatial Settings */
 
     /* Font */
     font-family: var(--primaryFont), san-serif;
@@ -69,7 +78,7 @@ p {
 }
 
 ul {
-    /* Spatial Setting */
+    /* Spatial Settings */
 
     /* Font */
     font-family: var(--primaryFont), san-serif;
