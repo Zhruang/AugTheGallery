@@ -22,6 +22,8 @@
 
     /* Font Size */
     --h1Size: calc(var(--EM) * 2.75);
+    --h2Size: calc(var(--EM) * 2);
+    --h3Size: calc(var(--EM) * 1.2);
     --pSize: calc(var(--EM) * 1);
 
     /* Text Rendering */
@@ -52,7 +54,7 @@ h1 {
     font-weight: var(--weightR);
     font-style: normal;
     text-transform: lowercase;
-    letter-spacing: calc(var(--EM) * -0.05);
+    /*letter-spacing: calc(var(--EM) * -0.05);*/
 
     /* Paragraph */
     line-height: 1.1;
@@ -61,8 +63,39 @@ h1 {
     color: var(--color2);
 }
 
+h2 {
+    /* Font */
+    font-family: var(--primaryFont), san-serif;
+    font-size: var(--h2Size);
+    font-weight: var(--weightB);
+    font-style: normal;
+    text-transform: lowercase;
+
+    /* Paragraph */
+    line-height: 1.1;
+
+    /* Color */
+    color: var(--color2);
+}
+
+h3 {
+    /* Font */
+    font-family: var(--primaryFont), san-serif;
+    font-size: var(--h3Size);
+    font-weight: var(--weightB);
+    font-style: normal;
+    /*ext-transform: lowercase;*/
+
+    /* Paragraph */
+    line-height: 1.1;
+
+    /* Color */
+    color: var(--color1);
+}
+
 p {
     /* Spatial Settings */
+    margin: calc(0 - var(--pSize));
 
     /* Font */
     font-family: var(--primaryFont), san-serif;
@@ -72,6 +105,7 @@ p {
 
     /* Paragraph */
     line-height: 1.5;
+    text-indent: var(--EM);
 
     /* Color */
     color: var(--color1);
@@ -103,9 +137,16 @@ strong {
 
 i {
     /* Font */
-    font-weight: var(--weightR);
+    font-weight: inherit;
     font-style: italic;
+}
 
+.colored {
     /* Color */
     color: var(--color3);
+}
+
+.openingParagraph {
+    /* Paragraph */
+    text-indent: 0;
 }
