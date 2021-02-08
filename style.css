@@ -6,12 +6,12 @@
     --EM: 18px;
 
     /* Color Palette */
-    --color1: #333;
+    --color1: #444;
     --color2: #111;
     --color3: #ff4466;
     --backgroundColor: #fafafa;
 
-    /* Font */
+    /* Text */
     --primaryFont: neue-haas-unica;
 
     /* Weight */
@@ -20,11 +20,14 @@
     --weightB: 600;
     --weightH: 900;
 
-    /* Font Size */
+    /* Text Size */
     --h1Size: calc(var(--EM) * 2.75);
     --h2Size: calc(var(--EM) * 2);
     --h3Size: calc(var(--EM) * 1.2);
     --pSize: calc(var(--EM) * 1);
+
+    /* Side Nav */
+    --sideNavWidth: calc(var(--EM) * 10);
 
     /* Text Rendering */
     -webkit-font-smoothing: antialiased;
@@ -48,12 +51,11 @@ body {
 }
 
 h1 {
-    /* Font */
+    /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--h1Size);
     font-weight: var(--weightR);
     font-style: normal;
-    text-transform: lowercase;
     /*letter-spacing: calc(var(--EM) * -0.05);*/
 
     /* Paragraph */
@@ -64,12 +66,11 @@ h1 {
 }
 
 h2 {
-    /* Font */
+    /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--h2Size);
     font-weight: var(--weightB);
     font-style: normal;
-    text-transform: lowercase;
 
     /* Paragraph */
     line-height: 1.1;
@@ -79,7 +80,7 @@ h2 {
 }
 
 h3 {
-    /* Font */
+    /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--h3Size);
     font-weight: var(--weightB);
@@ -97,7 +98,7 @@ p {
     /* Spatial Settings */
     margin: calc(0 - var(--pSize));
 
-    /* Font */
+    /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--pSize);
     font-weight: var(--weightR);
@@ -105,7 +106,7 @@ p {
 
     /* Paragraph */
     line-height: 1.5;
-    text-indent: var(--EM);
+    text-indent: calc(var(--EM) * 2);
 
     /* Color */
     color: var(--color1);
@@ -114,7 +115,7 @@ p {
 ul {
     /* Spatial Settings */
 
-    /* Font */
+    /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--pSize);
     font-weight: var(--weightR);
@@ -131,22 +132,62 @@ ul {
 }
 
 strong {
-    /* Font */
+    /* Text */
     font-weight: var(--weightB);
 }
 
 i {
-    /* Font */
+    /* Text */
     font-weight: inherit;
     font-style: italic;
 }
 
-.colored {
+.colored { /* Apply the third color */
     /* Color */
     color: var(--color3);
 }
 
-.openingParagraph {
+.openingParagraph { /* No indent for opening paragraph */
     /* Paragraph */
     text-indent: 0;
+}
+
+.sidenav { /* The sidebar menu */
+  /* Spatial Settings */
+  width: var(--sideNavWidth);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: calc(var(--EM) * 3);
+}
+
+
+.sidenav a { /* The navigation menu links */
+  /* Spatial Settings */
+  padding-left: calc(var(--EM) * 1);
+  display: block;
+
+  /* Text */
+  font-size: var(--h3Size);
+  font-weight: var(--weightB);
+  text-decoration: none;
+
+  /* Color */
+  color: var(--color3);
+  
+}
+
+.sidenav a:hover {
+  /* Text */
+  text-decoration: underline;
+}
+
+.main {
+  margin-left: var(--sideNavWidth);
+}
+
+@media screen and (max-width: 1000px) {
+  .sidenav {width: 0;}
 }
