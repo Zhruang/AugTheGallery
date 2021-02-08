@@ -8,7 +8,7 @@
     /* Color Palette */
     --color1: #333;
     --color2: #111;
-    --color3: blue;
+    --color3: #ff4466;
     --backgroundColor: #fafafa;
 
     /* Font */
@@ -99,4 +99,13 @@ ul {
 strong {
     /* Font */
     font-weight: var(--weightB);
+}
+
+i {
+    /* Font */
+    font-weight: var(--weightR);
+    font-style: italic;
+
+    /* Color */
+    color: var(--color3);
 }
