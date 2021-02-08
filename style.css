@@ -47,7 +47,6 @@ body {
     margin: auto;
 
     /* Experimental */
-    hyphens: auto;
 }
 
 h1 {
@@ -107,6 +106,9 @@ p {
     /* Paragraph */
     line-height: 1.5;
     text-indent: calc(var(--EM) * 2);
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 
     /* Color */
     color: var(--color1);
