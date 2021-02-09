@@ -44,7 +44,7 @@ body {
     background-color: var(--backgroundColor);
 
     /* Spatial Settings */
-    max-width: calc(var(--EM) * 40);
+    max-width: calc(var(--EM) * 36);
     padding: calc(var(--EM) * 1);
     margin: auto;
 
