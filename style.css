@@ -179,6 +179,7 @@ footer {
   .multiCol {
     /* Paragraph */
     column-count: 2;
+    column-gap: calc(var(--EM) * 1.5);
   }
 }
 
