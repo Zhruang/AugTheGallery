@@ -9,7 +9,7 @@ Knowledge in relation to the physical world
 Paper -> one of the most two-dimension
 
 ## Reading Responses
-### week i
+### week 02
 
 #### On Licklider’s *Man-Computer Symbiosis*
 
@@ -34,4 +34,8 @@ Communicating with a computer using a keyboard, especially a few decades ago, re
 Touch screen allows the input and output to happen on the very same spot and nearly the same time. As the output display changes its content, for example, after a command was given through a touch, the potential input commands projected onto the display also change accordingly, allowing for a much more flexible and efficient control on the device. And unlike using a keyboard, or a mouse, or a joystick, this process doesn’t need extra matching of the mapping of the input and the one of the output on the user’s end; a event will be triggered exactly at where I touched the screen and a visual (or some other forms of) response will take place potentially in that very spot. 
 
 #### On Krevelen’s *A Survey of Augmented Reality*
+
+
+
+### week 03
 
