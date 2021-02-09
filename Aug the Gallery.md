@@ -35,5 +35,3 @@ Touch screen allows the input and output to happen on the very same spot and nea
 
 #### On Krevelen’s *A Survey of Augmented Reality*
 
-
-

@@ -25,6 +25,7 @@
     --h2Size: calc(var(--EM) * 2);
     --h3Size: calc(var(--EM) * 1.2);
     --pSize: calc(var(--EM) * 1);
+    --capSize: calc(var(--EM) * 0.5);
 
     /* Side Nav */
     --sideNavWidth: calc(var(--EM) * 10);
@@ -105,7 +106,7 @@ p {
 
     /* Paragraph */
     line-height: 1.5;
-    text-indent: calc(var(--EM) * 2);
+    text-indent: calc(var(--EM) * 1.5);
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
@@ -142,6 +143,21 @@ i {
     /* Text */
     font-weight: inherit;
     font-style: italic;
+}
+
+footer {
+    /* Spatial Settings */
+    padding-top: calc(var(--EM) * 2);
+    padding-bottom: calc(var(--EM) * 1);
+
+    /* Text */
+    font-family: var(--primaryFont), san-serif;
+    font-size: var(--capSizepSize);
+    font-weight: var(--weightR);
+
+    /* Paragraph */
+    text-align: right;
+
 }
 
 .colored { /* Apply the third color */
