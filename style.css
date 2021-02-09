@@ -25,6 +25,7 @@
     --h2Size: calc(var(--EM) * 2);
     --h3Size: calc(var(--EM) * 1.2);
     --pSize: calc(var(--EM) * 1);
+    --liSize: calc(var(--EM) * .75);
     --capSize: calc(var(--EM) * 0.5);
 
     /* Side Nav */
@@ -96,7 +97,7 @@ h3 {
 
 p {
     /* Spatial Settings */
-    margin: calc(0 - var(--pSize));
+    margin: 0;
 
     /* Text */
     font-family: var(--primaryFont), san-serif;
@@ -115,14 +116,14 @@ p {
     color: var(--color1);
 }
 
-ul {
+/*ul {
     /* Spatial Settings */
 
     /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--pSize);
     font-weight: var(--weightR);
-    font-style: italic;
+    font-style: normal;
 
     /* Paragraph */
     line-height: 1.5;
@@ -131,7 +132,12 @@ ul {
     color: var(--color1);
     
     /*Style*/
-    list-style-type: circle;
+    list-style-type: none;
+    list-style-position: inside;
+} */
+li {
+    list-style-type: none;
+    list-style-position: inside;
 }
 
 strong {
@@ -184,12 +190,10 @@ footer {
 
 .sidenav a { /* The navigation menu links */
   /* Spatial Settings */
-  padding-left: calc(var(--EM) * 1);
+  padding-left: calc(var(--EM) * 0);
   display: block;
 
   /* Text */
-  font-size: var(--pSize);
-  font-weight: var(--weightB);
   text-decoration: none;
 
   /* Color */
@@ -201,6 +205,42 @@ footer {
   /* Text */
   text-decoration: underline;
 }
+
+.sidenav ul {
+  /* Spatial Settings */
+  padding-left: calc(var(--EM) * 1);
+  display: block;
+  margin: 0;
+
+  /* Text */
+  font-size: var(--pSize);
+  font-weight: var(--weightB);
+  list-style-type: none;
+
+  /* Color */
+  color: var(--color3);
+  
+}
+
+.sidenav li {
+  /* Spatial Settings */
+  padding-left: calc(var(--EM) * 1);
+  padding-bottom: calc(var(--liSize) * .25);
+  padding-top: calc(var(--liSize) * .4);
+
+  /* Text */
+  font-size: var(--liSize);
+  font-weight: var(--weightR);
+  list-style-type: none;
+
+  /* Paragraph */
+  line-height: 1.1;
+
+  /* Color */
+  color: var(--color3);
+  
+}
+
 
 .main {
   margin-left: var(--sideNavWidth);
