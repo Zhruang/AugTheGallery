@@ -44,7 +44,7 @@ body {
     background-color: var(--backgroundColor);
 
     /* Spatial Settings */
-    max-width: calc(var(--EM) * 36);
+    max-width: calc(var(--EM) * 60);
     padding: calc(var(--EM) * 1);
     margin: auto;
 
@@ -53,17 +53,22 @@ body {
 
 h1 {
     /* Spatial Settings */
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
     padding-bottom: calc(var(--EM) * 4);
+    max-width: calc(var(--EM) * 40);
     /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--h1Size);
     font-weight: var(--weightR);
     font-style: normal;
+
     /*letter-spacing: calc(var(--EM) * -0.05);*/
 
     /* Paragraph */
     line-height: 1.1;
+    text-align: right;
 
     /* Color */
     color: var(--color2);
@@ -128,6 +133,7 @@ p {
     color: var(--color1);
 }
 
+
 hr {
     /* Spatial Settings */
     margin-top: calc(var(--EM) * 2);
@@ -167,6 +173,15 @@ footer {
     text-align: right;
 
 }
+
+
+@media (min-width: 768px) {
+  .multiCol {
+    /* Paragraph */
+    column-count: 2;
+  }
+}
+
 
 .colored { /* Apply the third color */
     /* Color */
@@ -246,7 +261,7 @@ footer {
 
 
 .main {
-  margin-left: var(--sideNavWidth);
+  /*margin-left: var(--sideNavWidth);*/
 }
 
 @media screen and (max-width: 1000px) {

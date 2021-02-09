@@ -1,4 +1,4 @@
-# Augmenting the Gallery - Notes
+# **Augmenting the Gallery - Notes**
 ## Class Notes
 ### 2021/02/02
 
