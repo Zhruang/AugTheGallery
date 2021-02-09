@@ -44,7 +44,7 @@ body {
     background-color: var(--backgroundColor);
 
     /* Spatial Settings */
-    max-width: calc(var(--EM) * 60);
+    max-width: calc(var(--EM) * 50);
     padding: calc(var(--EM) * 1);
     margin: auto;
 
@@ -264,6 +264,6 @@ footer {
   /*margin-left: var(--sideNavWidth);*/
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .sidenav {width: 0;}
 }
