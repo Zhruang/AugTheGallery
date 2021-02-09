@@ -163,6 +163,7 @@ footer {
     font-weight: var(--weightR);
 
     /* Paragraph */
+    line-height: 1.25;
     text-align: right;
 
 }
