@@ -25,7 +25,7 @@
     --h2Size: calc(var(--EM) * 2);
     --h3Size: calc(var(--EM) * 1.2);
     --pSize: calc(var(--EM) * 1);
-    --liSize: calc(var(--EM) * .75);
+    --liSize: calc(var(--EM) * .9);
     --capSize: calc(var(--EM) * 0.5);
 
     /* Side Nav */
@@ -72,6 +72,7 @@ h2 {
     font-size: var(--h2Size);
     font-weight: var(--weightB);
     font-style: normal;
+    font-variant-caps: all-small-caps;
 
     /* Paragraph */
     line-height: 1.1;
@@ -213,9 +214,10 @@ footer {
   margin: 0;
 
   /* Text */
-  font-size: var(--pSize);
+  font-size: var(--h3Size);
   font-weight: var(--weightB);
   list-style-type: none;
+  font-variant-caps: all-small-caps;
 
   /* Color */
   color: var(--color3);
@@ -226,7 +228,7 @@ footer {
   /* Spatial Settings */
   padding-left: calc(var(--EM) * 1);
   padding-bottom: calc(var(--liSize) * .25);
-  padding-top: calc(var(--liSize) * .4);
+  padding-top: calc(var(--liSize) * .5);
 
   /* Text */
   font-size: var(--liSize);
