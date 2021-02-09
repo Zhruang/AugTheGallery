@@ -172,7 +172,7 @@ i {
   display: block;
 
   /* Text */
-  font-size: var(--h3Size);
+  font-size: var(--pSize);
   font-weight: var(--weightB);
   text-decoration: none;
 
