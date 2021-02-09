@@ -52,6 +52,9 @@ body {
 }
 
 h1 {
+    /* Spatial Settings */
+    margin: 0;
+    padding-bottom: calc(var(--EM) * 4);
     /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--h1Size);
@@ -67,6 +70,10 @@ h1 {
 }
 
 h2 {
+    /* Spatial Settings */
+    margin: 0;
+    padding-bottom: calc(var(--EM) * 0);
+
     /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--h2Size);
@@ -82,6 +89,10 @@ h2 {
 }
 
 h3 {
+    /* Spatial Settings */
+    margin: 0;
+    padding-bottom: calc(var(--EM) * 1.5);
+    
     /* Text */
     font-family: var(--primaryFont), san-serif;
     font-size: var(--h3Size);
@@ -117,30 +128,19 @@ p {
     color: var(--color1);
 }
 
-/*ul {
+hr {
     /* Spatial Settings */
-
-    /* Text */
-    font-family: var(--primaryFont), san-serif;
-    font-size: var(--pSize);
-    font-weight: var(--weightR);
-    font-style: normal;
-
-    /* Paragraph */
-    line-height: 1.5;
+    margin-top: calc(var(--EM) * 2);
+    margin-bottom: calc(var(--EM) * 2);
 
     /* Color */
-    color: var(--color1);
-    
-    /*Style*/
-    list-style-type: none;
-    list-style-position: inside;
-} */
-li {
-    list-style-type: none;
-    list-style-position: inside;
-}
+    background-color: var(--color3);
 
+    /* Style */
+    height: 2px;
+    border-width: 0;
+
+}
 strong {
     /* Text */
     font-weight: var(--weightB);
@@ -154,7 +154,7 @@ i {
 
 footer {
     /* Spatial Settings */
-    padding-top: calc(var(--EM) * 2);
+    padding-top: calc(var(--EM) * 0);
     padding-bottom: calc(var(--EM) * 1);
 
     /* Text */
