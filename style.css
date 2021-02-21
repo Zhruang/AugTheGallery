@@ -158,6 +158,12 @@ i {
     font-style: italic;
 }
 
+em {
+    /* Text */
+    font-weight: inherit;
+    font-style: italic;
+}
+
 footer {
     /* Spatial Settings */
     padding-top: calc(var(--EM) * 0);
