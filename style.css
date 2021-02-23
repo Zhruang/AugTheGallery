@@ -164,6 +164,10 @@ em {
     font-style: italic;
 }
 
+a {
+    /* Color */
+    color: var(--color3);
+}
 footer {
     /* Spatial Settings */
     padding-top: calc(var(--EM) * 0);
