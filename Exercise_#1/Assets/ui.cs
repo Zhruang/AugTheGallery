@@ -27,6 +27,6 @@ public class ui : MonoBehaviour
     public void SpinDisco()
     {
         SpinEnable = true;
-        SpinButton.SetActive(false);
+        //SpinButton.SetActive(false);
     }
 }
