@@ -29,7 +29,8 @@
     --capSize: calc(var(--EM) * 0.5);
 
     /* Side Nav */
-    --sideNavWidth: calc(var(--EM) * 10);
+    --sideNavMaxWidth: calc(var(--EM) * 16);
+    --sideNavMinWidth: calc(var(--EM) * 10);
 
     /* Text Rendering */
     -webkit-font-smoothing: antialiased;
@@ -44,7 +45,7 @@ body {
     background-color: var(--backgroundColor);
 
     /* Spatial Settings */
-    max-width: calc(var(--EM) * 50);
+    max-width: calc(var(--EM) * 70);
     padding: calc(var(--EM) * 1);
     margin: auto;
 
@@ -169,6 +170,7 @@ a {
     color: var(--color3);
 }
 footer {
+  
     /* Spatial Settings */
     padding-top: calc(var(--EM) * 0);
     padding-bottom: calc(var(--EM) * 1);
@@ -206,15 +208,17 @@ footer {
 
 .sidenav { /* The sidebar menu */
   /* Spatial Settings */
-  width: var(--sideNavWidth);
+  min-width: calc(var(--EM) * 10);
+  max-width: calc(var(--EM) * 24);
+  width: 25%;
   position: fixed;
-  z-index: 1;
+  z-index: auto;
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: calc(var(--EM) * 3);
+  padding-top: calc(var(--EM) * 1);
+  padding-right: calc(var(--EM) * 1);
 }
-
 
 .sidenav a { /* The navigation menu links */
   /* Spatial Settings */
@@ -226,7 +230,6 @@ footer {
 
   /* Color */
   color: var(--color3);
-  
 }
 
 .sidenav a:hover {
@@ -255,7 +258,7 @@ footer {
   /* Spatial Settings */
   padding-left: calc(var(--EM) * 1);
   padding-bottom: calc(var(--liSize) * .25);
-  padding-top: calc(var(--liSize) * .5);
+  padding-top: calc(var(--liSize) * .25);
 
   /* Text */
   font-size: var(--liSize);
@@ -270,11 +273,13 @@ footer {
   
 }
 
-
 .main {
-  /*margin-left: var(--sideNavWidth);*/
+  width:70%;
+  max-width: calc(var(--EM) * 48);
+  float: right;
+  overflow-x: hidden;
 }
-
-@media screen and (max-width: 1300px) {
-  .sidenav {width: 0;}
+@media screen and (max-width: 600px) {
+  .sidenav {width: 0; display: none;}
+  .main {width: 100%}
 }
