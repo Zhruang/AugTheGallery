@@ -182,8 +182,11 @@ footer {
     min-width: calc(var(--EM) * 10);
     max-width: calc(var(--EM) * 24);
     width: 25%;
-    padding-left: calc(var(--EM) * 1);
-    padding-bottom: calc(var(--EM) * 1);
+    margin-left: calc(var(--EM) * 1);
+    margin-bottom: calc(var(--EM) * 1);
+    padding: calc(var(--EM) * 0.4);
+    padding-top: calc(var(--EM) * 0.25);
+
     position: fixed;
     left: 0;
     bottom: 0;
@@ -197,15 +200,12 @@ footer {
     /* Paragraph */
     line-height: 1.25;
     text-align: left;
-    vertical-align: bottom;
+    vertical-align: top;
+
+    background: var(--color3);
+    color: var(--backgroundColor);
     
 }
-
-footer hr {
-  margin: 0;
-  margin-bottom: calc(var(--EM) * 0.5);
-}
-
 
 @media (min-width: 1200px) {
   .multiCol {
@@ -327,9 +327,6 @@ scrollbar-width: none;  /* Firefox */
 @media (max-width: 850px) {
   footer {
     position: static;
-    padding-top: calc(var(--EM) * 0);
-    padding-left: 0;
-    padding-bottom: calc(var(--EM) * 0);
     left: auto;
     bottom: auto;
     margin-left: auto;
