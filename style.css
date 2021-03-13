@@ -223,7 +223,7 @@ footer {
   min-width: calc(var(--EM) * 10);
   max-width: calc(var(--EM) * 24);
   width: 25%;
-  height: calc(100vh - calc(var(--EM) * 3.75));
+  height: calc(100vh - calc(var(--EM) * 4.25));
   position: fixed;
   top: 0;
   left: 0;
