@@ -8,7 +8,7 @@
     /* Color Palette */
     --color1: #444;
     --color2: #111;
-    --color3: #ff4466;
+    --color3: #00a070;
     --backgroundColor: #fafafa;
 
     /* Text */
@@ -78,7 +78,11 @@ h1 {
 h2 {
     /* Spatial Settings */
     margin: 0;
-    padding-bottom: calc(var(--EM) * 0.5);
+    margin-top: calc(var(--EM) * 2);
+    margin-bottom: calc(var(--EM) * -1);
+    padding: calc(var(--EM) * 0.4);
+    padding-top: calc(var(--EM) * 0.1);
+    max-width: fit-content;
 
     /* Text */
     font-family: var(--primaryFont), san-serif;
@@ -91,12 +95,15 @@ h2 {
     line-height: 1.1;
 
     /* Color */
-    color: var(--color2);
+    
+    background: var(--color3);
+    color: var(--backgroundColor);
 }
 
 h3 {
     /* Spatial Settings */
     margin: 0;
+    padding-top: calc(var(--EM) * .5);
     padding-bottom: calc(var(--EM) * 1.5);
     
     /* Text */
@@ -110,7 +117,7 @@ h3 {
     line-height: 1.1;
 
     /* Color */
-    color: var(--color1);
+    color: var(--color2);
 }
 
 p {
@@ -134,7 +141,6 @@ p {
     color: var(--color1);
 }
 
-
 hr {
     /* Spatial Settings */
     margin-top: calc(var(--EM) * 2);
@@ -144,7 +150,7 @@ hr {
     background-color: var(--color3);
 
     /* Style */
-    height: 2px;
+    height: 4px;
     border-width: 0;
 
 }
@@ -161,7 +167,7 @@ i, em {
 
 a {
     /* Color */
-    color: var(--color3);
+    color: var(--color1);
 }
 
 hr {
@@ -219,12 +225,13 @@ footer {
   width: 25%;
   height: calc(100vh - calc(var(--EM) * 3.75));
   position: fixed;
-  z-index: auto;
   top: 0;
   left: 0;
+  display: block;
   overflow-y: scroll;
   padding-top: calc(var(--EM) * 1);
   padding-right: calc(var(--EM) * 1);
+  padding-bottom: calc(var(--EM) * 1.75);
 }
 
 .sidenav a { /* The navigation menu links */
@@ -261,7 +268,7 @@ footer {
   
 }
 
-.sidenav li {
+.sidenav li{
   /* Spatial Settings */
   padding-left: calc(var(--EM) * .5);
   padding-bottom: calc(var(--liSize) * .25);
@@ -277,7 +284,7 @@ footer {
   line-height: 1.1;
 
   /* Color */
-  color: var(--color3);
+  color: var(--color2);
   
 }
 
@@ -288,7 +295,6 @@ footer {
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
-
 
 .main {
   width:70%;
@@ -318,6 +324,7 @@ scrollbar-width: none;  /* Firefox */
     left: auto;
     bottom: auto;
     margin-left: auto;
+    margin-bottom: 0;
     text-align: right;
     min-width: 0;
     width: auto;
@@ -326,7 +333,7 @@ scrollbar-width: none;  /* Firefox */
     margin: auto;
   }
   .sidenav {
-    height: 100%;
+    height: 90%;
   }
   :root {--EM: 16px};
 }
