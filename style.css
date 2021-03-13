@@ -207,13 +207,6 @@ footer {
     
 }
 
-@media (min-width: 1200px) {
-  .multiCol {
-    /* Paragraph */
-    column-count: 2;
-    column-gap: calc(var(--EM) * 1.5);
-  }
-}
 
 .colored { /* Apply the third color */
     /* Color */
@@ -322,7 +315,7 @@ scrollbar-width: none;  /* Firefox */
 @media (max-width: 600px) {
   .sidenav {width: 0; display: none;}
   .main {width: 100%}
-  :root {--EM: 16px};
+  
 }
 
 @media (max-width: 850px) {
@@ -337,5 +330,14 @@ scrollbar-width: none;  /* Firefox */
   }
   footer hr {
     margin: auto;
+  }
+  :root {--EM: 16px};
+}
+
+@media (min-width: 1024px) {
+  .multiCol {
+    /* Paragraph */
+    column-count: 2;
+    column-gap: calc(var(--EM) * 1.5);
   }
 }
