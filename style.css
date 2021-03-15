@@ -58,6 +58,7 @@ h1 {
     margin-bottom: 0;
     margin-left: auto;
     padding-bottom: calc(var(--EM) * 4);
+    padding-right: calc(var(--EM) * 1);
     max-width: calc(var(--EM) * 40);
     /* Text */
     font-family: var(--primaryFont), san-serif;
