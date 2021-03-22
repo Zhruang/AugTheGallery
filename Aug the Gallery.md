@@ -1,12 +1,13 @@
 # **Augmenting the Gallery - Notes**
-## Class Notes
-### 2021/02/02
+## Assignments
 
-Lowering the bars of entering subjects and industries
+#### Augmented Exercise 2 – Chinese Font Size System
 
-Knowledge in relation to the physical world
+In this exercise, I attempt to introduce a little bit of the history about modern Chinese typography. Even though China might be considered the first to invent woodblock printing and movable type, the modern letterpress technology and metal type founding were not around in China until the late nineteenth century when the Western Christian missionaries entered the country and established missionary presses. During China’s transition from woodblock printing to Western mechanization, the earliest modern China font size system – the “number” system – was introduced by The American Presbyterian Mission Press in Shanghai.
 
-Paper -> one of the most two-dimension
+The system consists of seven different font sizes, and all seven are realized in this AR application as 3D modeled metal types. A type specimen is also included along with the metal types in hope of offering additional information about how did they look like when printed on paper in the nineteenth century. Each object is also accompanied by a virtual label above to help to identify the configuration, the English / Chinese name of the font size, and a short paragraph about the history behind this “number” system.
+
+I am overall satisfied with the result that came out. One problem I encountered and yet failed to solve is that as the user is choosing which object to be placed or moved next by tapping on the buttons on the left side of the screen, the app would detect that action as re-deploying the current object to a new position, that is, behind the virtual buttons, on the left. I wonder if there is a way for that detection to avoid the space the buttons occupy on the screen.
 
 ## Reading Responses
 ### week 02
@@ -72,4 +73,32 @@ This essay by DuGay can be roughly divided into two parts. The first part discus
 4) In the middle of the essay DuGay talks about the concept of “soundscape” where he discusses how Sony Walkman can help one escape from the soundscape of the actual world. The topic of escaping from reality through electronic devices has been intensively talked about in recently years with the emergence of smartphones (social media) and more recently, AirPods (let’s consider it as an evolved version of Walkman). The invention of “active noise-cancelling” headphones and earphones has defined the soundscape of many parts of our modern life as “noise”, as the auditory reality that we want to discard. The notion of noise, is rather hard to accurately defined so objectively as even the most beautifully composed and orchestrated music could be considered as noise in the ears of an insomnia patient. When a person wears a pair of noise-cancelling headphones onto the street, he/she might consider “the bustle and hassle” in the city as noise. However, all of a sudden, the situation flipped with the arrival of a global pandemic. People are forced to stay at home, and cities at one point became dead quiet besides of haunting sirens of ambulance. The New York Public Library at such time released an album “Missing Sounds of New York” which consists eight tracks of field-recorded sound of the busy New York before the pandemic. Ironically, that frustrating soundscape of city life we always wanted to escape from becomes the sanctuary away from the depressing indoor life.
 
 ### week 05
+
+### week 06
+
+#### On Bautista’s *Museums in the Digital Age*
+
+I thought a lot about John Berger’s book *Here Is Where We Meet* when reading Bautista’s insights on the debate over *place* and *space*. *Space* speaks more about the physicality while *place* speaks more about the event happens within. And Berger, introduces to us a mixture of memories, experiences and relationships with people through a narrative that goes across different places, and objects—Lisboa, Genève, melons, rock paintings near Le Pont d’Arc … Where we meet, a rendezvous, is for sure a location, a locality. But what makes that specific space special is the date, the act of meeting.
+
+To lead the debate into the realm of museums, a museum is essentially a rendezvous to meet with artisans, designers, artists, and maybe people with other identities who are behind those objects exhibited. Past memories, lived experiences are preserved in museum objects, which work as specimen containers. One question, brought with the coming of digital age, is that, if we value the social aspect of a location so much more than the physical aspect, if museum experience is so “[detached] … from the physical museum space”, can museums exist without the physical buildings and collections altogether? Does Wikipedia or Internet Archive count as sort of a museum? But again, we are then going back to the long existing question of, how important is the *aura*?
+
+####  On Desvallées and Mairesse’s *Key Concepts of Museology*
+
+A coherent and meaningful whole of objects, a collection, is the reason why a museum exists. In this sense, museum is almost the appendage to the collection that should adapt to the changing and our increasing knowledge of the collection. However, as the essay implies, there are other institutions that do not necessarily own collections or have collections that are not at a major position of their missions. These institutions share the same name of “museums” as those put the collections at the first place, And such institutions, it seems, have grown over the years. This relationship between museum and collection to some extent resembles that between exhibition and curator.
+
+At its origin, curator is the custodian of a collection who is also responsible for displaying the collection to public. The curator puts together an exhibition in which museum objects ideally shine by themselves, and then stands back. In recent years, there is a trend for more curators to step forward onto the main stage and more actively engaging with the meaning-making, the interpreting, and the contextualizing. A curatorial proposal contributes more to the forming of an exhibition than simply the collection itself. The exhibition is like an essay written by the curator with a bibliography of a series of museum objects. A profound difference between exhibitions realized in such manner and exhibitions totally built around a collection is that, the objects displayed sometimes can be seen totally irrelevant and incoherent at first glance. An ancient skull is put beside an eighteenth century painting; or a bust of Buddha is placed behind a wrecked car. The meaningfulness thus comes from the curator’s careful interpretation and narration.
+
+#### On Goodman’s *The End of the Museum?*
+
+“Why can’t we run a museum as we run a library?” When Goodman illustrates to us how disastrous a library can be if it is run like a museum, one begin to wonder the legitimacy of the operation mode in a museum.
+
+The viewers, unlike being in a library, will not have the freedom to handle the works, or put them in different lights, or bring them home, and etc. Numerous security measures are deployed to ensure a distance between the viewers and the artworks. Truly, part of a museum’s job is to preserve and safeguard its collections from vandalism. But in doing that brings the contradiction to the museum’s own main mission, very well stated by Goodman, that is “for the prevention and cure of blindness in order to make works work”. Simply put, to educate people the ability to see. In some school of thought, the forming of distance transforms things into museum objects that bear significance. Because of the distance, we see works better. But that *distance* said above, to me, is more conceptual than physical. Once one walks into the door of a museum, he/she is in fact temporarily pull out from the real world and sent to the wonderland of a museum world. Everything is seen differently from as seen outside the museum. With this notion of *distance* already flooded in the air, the physical distance indeed will impede people from communicating with artworks. In that, museums also have the duty of finding other means of bringing the audience back in front of the artworks under such not-so-optimized condition.
+
+And to add a little final note on Goodman’s statement that “a museum’s success might be judged by the cultural health of its visitors and its community”: In the other way around, the survival of a museum might as well depend on the cultural health of its visitors and its community.
+
+### week 07
+
+
+
+
 
