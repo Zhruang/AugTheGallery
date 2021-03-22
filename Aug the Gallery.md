@@ -98,6 +98,8 @@ And to add a little final note on Goodman’s statement that “a museum’s suc
 
 ### week 07
 
+### week 09
+
 
 
 
