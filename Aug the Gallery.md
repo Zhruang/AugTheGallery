@@ -1,4 +1,5 @@
 # **Augmenting the Gallery - Notes**
+
 ## Assignments
 
 #### Augmented Exercise 2 – Chinese Font Size System
@@ -99,3 +100,17 @@ And to add a little final note on Goodman’s statement that “a museum’s suc
 ### week 07
 
 ### week 09
+
+#### On Battro’s *From Malraux’s Imaginary Museum to the Virtual Museum*
+
+a “change of function” —> out of original context / appreciated differently —> the title of an artwork —> subject matter —> subject matter vs artist name —> museum wall label design
+
+photography —> reproduction —> “equalize” the style across different objects —> flattened —> “lost specificity to common style” —> scale? —> one attribute / spatial relationship with the space nearby —> reproduction as a hint to the original in which we are allowed to freely imagine ???
+
+Practical restrictions in the museum space —> the ability to manipulate in the digital space —> art reproductions in museum shops —> potential, also echoed in *The End of Museum?* 
+
+What is *Le musée imaginaire*? —> refer to the Apollo essay —> “bespoke museum” / “portable museum”
+
+Art Forgery —> Reproduction / Editioning of digital artwork 
+
+Difference between real / virtual visits —> 1. online exhibition -> a glorified slideshow? —> 2. guided tours -> screen space / game space —> 3. the size of the screen
