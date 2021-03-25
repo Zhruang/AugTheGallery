@@ -10,6 +10,18 @@ The system consists of seven different font sizes, and all seven are realized in
 
 I am overall satisfied with the result that came out. One problem I encountered and yet failed to solve is that as the user is choosing which object to be placed or moved next by tapping on the buttons on the left side of the screen, the app would detect that action as re-deploying the current object to a new position, that is, behind the virtual buttons, on the left. I wonder if there is a way for that detection to avoid the space the buttons occupy on the screen.
 
+
+
+#### Collection Exploration
+
+**Nanjing Museum**, is one of the largest museums and one of the first museums established in China. Located in the city of Nanjing, an old capital of ten dynasties in the history of China, Nanjing Museum holds a collection of more than 430,000 pieces of  artifacts and artworks spanning the time from the Neolithic Age to the contemporary. 
+
+While many major museums in the Western world hold a rather “international” collection of objects of the global civilization, Nanjing Museum almost exclusively focuses on collecting domestic artworks and artifacts that were discovered within the nation. Because of that, the collection of Nanjing Museum is organized and classified mostly according to the medium, and dynasties (which is to say in a chronic order ). 
+
+Compared to The Palace Museum in Beijing which has a more comprehensive collection of Chinese arts from all parts of the nation, Nanjing Museum puts a heavier emphasis on studying and displaying artifacts and artworks made, collected, discovered locally. Most objects displayed in its permanent exhibition galleries were original from the city itself or areas around. 
+
+Such locality of museum objects in Nanjing Museum will be the overarching theme of this augmented reality application. One might never know that one of the most appreciated ink paintings from the Sui Dynasty was rescued across the river from his/her apartment; Or an important porcelain kiln factory once stood next to that popular shopping mall. This application aims to reconnect the modern public with the history in a tangible and specific way. With the collection database available, the app is able to map all the objects with confirmed geographic information relating to their initial creation or excavation sites and so on onto the streets of Nanjing. Through the app, one is able to discover all the artifacts and artworks that once existed near his/her neighborhood before they went into the museum collection. In a way, the app liberates / releases the collection from the museum, and give it back to the city as a larger cultural space. The way AR kicks in draws inspiration from Pokémon Go. 
+
 ## Reading Responses
 ### week 02
 
