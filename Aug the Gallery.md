@@ -1,3 +1,5 @@
+
+
 # **Augmenting the Gallery - Notes**
 
 ## Assignments
@@ -115,21 +117,15 @@ And to add a little final note on Goodman’s statement that “a museum’s suc
 
 #### On Battro’s *From Malraux’s Imaginary Museum to the Virtual Museum*
 
-André Malraux suggests a change of function and significance of an artwork when moved to the museum from its original location. “They are Rembrandt and Titian. The portrait, especially, has ceased to be someone’s portrait.” First, modern museums have dragged the works out of their initially designed purpose, altered the viewers’ ways of looking at them, 
+Modern museums have brought a deep influence on how people look at works of art. An altarpiece, a mural, a wooden sculpture, they are stripped off from their initial purpose and transformed into museum objects which are to be distanced from their history. André Malraux’s quote, included in Battro’s essay, “They are Rembrandt and Titian. The portrait, especially, has ceased to be someone’s portrait,” introduces to us a delicate shift of focus when portrait paintings are moved from their original ownership and installed in museums. Malraux sees that people are no longer interested in what is painted but rather who painted it. Lively depicted subjects become merely medals on artistic geniuses. Again, this shift is brought by the establishment of museums and the idea of museum objects. Surely, Pope Julius II’s decades-long investment in Michelangelo’s art-making relied partially on his faith in Michelangelo as a living genius, however Julius II by no means chipped in for simply the name of Michelangelo but Michelangelo’s capability of producing works that astonish him and works that he commissioned for various purposes.
 
+In today’s museums, every single artwork has its title, whether named by the artist or the institution. Probably before  artists realized the potential of titling works creatively, which can greatly sophisticate their meanings, the title of an artwork, regardless of who put together, explains the subject matter within the frame. Specific figures, locations, items are identified, and such titles provide scholars and casual viewers vital information for accurate and deeper inspection on the piece of work. Nonetheless, as said above, names of the artists become an equally, not not more important attribution of an artwork. The battling for attention of these two piece of texts can well be seen in wall labels that we see everywhere in museums. Which one ought to be printed bigger, or in bold type? Some museums make the title bigger; some make the artist name bigger; and some would lean toward either depends on the the nature of the artwork or exhibition. The decision-making in the wall label design process across different museums can be seen as their different attitudes towards this debate to a certain degree. But simple as a piece of wall label does not affect modern museums becoming venues of pilgrimage rather than seeing. 
 
-
-André Malraux suggests that once a piece of work 
-
-
-
-his philosophical disposition toward idealism impeded his ability to make a connection with the city.
+To talk more about Malraux’s *Le Musée Imaginaire*, the idea of art reproduction is frequently brought up.  
 
 
 
 
-
-a “change of function” —> out of original context / appreciated differently —> the title of an artwork —> subject matter —> subject matter vs artist name —> museum wall label design
 
 photography —> reproduction —> “equalize” the style across different objects —> flattened —> “lost specificity to common style” —> scale? —> one attribute / spatial relationship with the space nearby —> reproduction as a hint to the original in which we are allowed to freely imagine ???
 
