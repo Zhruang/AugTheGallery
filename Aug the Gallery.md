@@ -115,6 +115,20 @@ And to add a little final note on Goodman’s statement that “a museum’s suc
 
 #### On Battro’s *From Malraux’s Imaginary Museum to the Virtual Museum*
 
+André Malraux suggests a change of function and significance of an artwork when moved to the museum from its original location. “They are Rembrandt and Titian. The portrait, especially, has ceased to be someone’s portrait.” First, modern museums have dragged the works out of their initially designed purpose, altered the viewers’ ways of looking at them, 
+
+
+
+André Malraux suggests that once a piece of work 
+
+
+
+his philosophical disposition toward idealism impeded his ability to make a connection with the city.
+
+
+
+
+
 a “change of function” —> out of original context / appreciated differently —> the title of an artwork —> subject matter —> subject matter vs artist name —> museum wall label design
 
 photography —> reproduction —> “equalize” the style across different objects —> flattened —> “lost specificity to common style” —> scale? —> one attribute / spatial relationship with the space nearby —> reproduction as a hint to the original in which we are allowed to freely imagine ???
