@@ -169,6 +169,7 @@ i, em {
 a {
     /* Color */
     color: var(--color1);
+    font-style: normal;
 }
 
 hr {
@@ -206,6 +207,17 @@ footer {
     background: var(--color3);
     color: var(--backgroundColor);
     
+}
+
+.hyperlink {
+  display: inline-block;
+    padding-top: calc(var(--EM) * 1);
+
+   /* Text */
+   font-family: var(--primaryFont), san-serif;
+   font-size: var(--pSize);
+   font-style: normal;
+   font-weight: var(--weightB);
 }
 
 
