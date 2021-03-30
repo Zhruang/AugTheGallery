@@ -121,8 +121,6 @@ Modern museums have brought a deep influence on how people look at works of art.
 
 In today’s museums, every single artwork has its title, whether named by the artist or the institution. Probably before  artists realized the potential of titling works creatively, which can greatly sophisticate their meanings, the title of an artwork, regardless of who put together, explains the subject matter within the frame. Specific figures, locations, items are identified, and such titles provide scholars and casual viewers vital information for accurate and deeper inspection on the piece of work. Nonetheless, as said above, names of the artists become an equally, not not more important attribution of an artwork. The battling for attention of these two piece of texts can well be seen in wall labels that we see everywhere in museums. Which one ought to be printed bigger, or in bold type? Some museums make the title bigger; some make the artist name bigger; and some would lean toward either depends on the the nature of the artwork or exhibition. The decision-making in the wall label design process across different museums can be seen as their different attitudes towards this debate to a certain degree. But simple as a piece of wall label does not affect modern museums becoming venues of pilgrimage rather than seeing. 
 
-To talk more about Malraux’s *Le Musée Imaginaire*, the idea of art reproduction is frequently brought up.  
-
 
 
 
