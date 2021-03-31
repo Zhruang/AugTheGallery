@@ -198,6 +198,7 @@ footer {
     font-family: var(--primaryFont), san-serif;
     font-size: var(--capSizepSize);
     font-weight: var(--weightR);
+    font-style: normal;
 
     /* Paragraph */
     line-height: 1.25;
