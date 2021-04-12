@@ -142,6 +142,10 @@ p {
     color: var(--color1);
 }
 
+p:first-child {
+  text-indent: 0;
+}
+
 hr {
     /* Spatial Settings */
     margin-top: calc(var(--EM) * 2);
@@ -227,10 +231,6 @@ footer {
     color: var(--color3);
 }
 
-.openingParagraph { /* No indent for opening paragraph */
-    /* Paragraph */
-    text-indent: 0;
-}
 
 .sidenav { /* The sidebar menu */
   /* Spatial Settings */
