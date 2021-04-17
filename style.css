@@ -187,7 +187,6 @@ footer {
     /* Spatial Settings */
     min-width: calc(var(--EM) * 10);
     max-width: calc(var(--EM) * 24);
-    width: 25%;
     margin-left: calc(var(--EM) * 1);
     margin-bottom: calc(var(--EM) * 1);
     padding: calc(var(--EM) * 0.4);
@@ -196,7 +195,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    max-width: fit-content;
+    width: max-content;
 
     /* Text */
     font-family: var(--primaryFont), san-serif;
