@@ -83,7 +83,7 @@ h2 {
     margin-bottom: calc(var(--EM) * -1);
     padding: calc(var(--EM) * 0.4);
     padding-top: calc(var(--EM) * 0.1);
-    max-width: fit-content;
+    width: max-content;
 
     /* Text */
     font-family: var(--primaryFont), san-serif;
