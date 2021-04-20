@@ -134,6 +134,8 @@ p {
     /* Paragraph */
     line-height: 1.5;
     text-indent: calc(var(--EM) * 1.5);
+    word-wrap: break-word; 
+    overflow-wrap: break-word;  
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
@@ -307,6 +309,12 @@ footer {
 .sidenav {
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
+}
+
+#exercise3 p{
+  font-family: Courier, monospace;
+  font-size: var(--liSize);
+  text-indent: 0;
 }
 
 .main {
